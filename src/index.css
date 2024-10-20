@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('./assets/VESIT.jpg'); /* Adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-container,
+.profile-container {
+  position: relative; /* Ensure elements can be positioned correctly */
+  color: white; /* For better contrast against the background */
+  z-index: 1; /* Ensure content is above the background */
+}

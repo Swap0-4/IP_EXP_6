@@ -1,0 +1,34 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(8, 1, 1, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.subject-list {
+    list-style-type: square;
+    padding: 0;
+}
+
+.subject-item {
+    background-color: #2c3e50; /* Darker shade for better visibility */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff; /* White text color for better contrast */
+    transition: transform 0.2s;
+    font-weight: bold; /* Bold text for better visibility */
+    font-size: 1.2em; /* Increased font size for better readability */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+.subject-item:hover {
+    transform: scale(1.05);
+    background-color: #34495e; /* Change to a slightly lighter shade on hover */
+}
+
